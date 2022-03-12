@@ -357,9 +357,27 @@ FORM
 }
 
 /* Media queries */
+@media (max-width: 890px){
+  .form-group{
+    flex-direction: column;
+  }
+}
+
+
 @media (max-width: 768px){
   html{
     font-size: 50%;
+  }
+
+  .form-group{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 680px){
+  section.hero div.container{
+    flex-direction: column-reverse;
+    text-align: center;
   }
 }
 
