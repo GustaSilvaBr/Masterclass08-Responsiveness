@@ -25,3 +25,8 @@
 ### Fluid texts
 `em` - Multiplied by parent tag
 `rem` - Multiplied by root(html)
+
+## Display Grid tricks
+
+### template columns
+`grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))`
