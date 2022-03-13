@@ -30,3 +30,13 @@
 
 ### template columns
 `grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))`
+
+## Media queries
+
+```css
+    @media (max-width: 320px){
+        #form h3{
+            font-size: 2rem;
+        }
+    }
+```
