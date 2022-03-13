@@ -402,7 +402,11 @@ FORM
     width: 40px;
     height: 30px;
     margin-right: 30px;
+
+    cursor: pointer;
   }
+
+  
 
   /*Fullscreen*/
   .menu-section.on{
