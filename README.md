@@ -31,7 +31,7 @@
 ### template columns
 `grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))`
 
-## Media queries
+## CSS Media queries
 
 ```css
     @media (max-width: 320px){
@@ -40,3 +40,10 @@
         }
     }
 ```
+## HTML Media queries
+
+```html
+    <link rel="stylesheet" href="responsiveness.css" media="screen and (max-width: 890px)" />
+    <link rel="stylesheet" href="print.css" media="print" />
+```
+
