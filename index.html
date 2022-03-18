@@ -57,9 +57,12 @@
     <main>
         <section class="cards">
             <div class="card">
-                <div class="image">
-                    <img src="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg" />
-                </div>
+                <picture class="image">
+                    <source media="(min-width: 768px)" srcset="https://i.ytimg.com/vi/GykTLqODQuU/maxresdefault.jpg">
+                    <source media="(min-width: 320px)" srcset="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg">
+                    <source media="(min-width: 10px)" srcset="https://i.ytimg.com/vi/GykTLqODQuU/mqdefault.jpg">
+                    <img src="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg" alt="image" />
+                </picture>
                 <div class="content">
                     <p class="title text--medium">
                         Formulário Animado com JS puro e CSS Animation | Mayk Brito

@@ -47,3 +47,22 @@
     <link rel="stylesheet" href="print.css" media="print" />
 ```
 
+## Image stylization
+
+```css
+    .image {
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 */
+
+  overflow: hidden;
+  position: relative;
+}
+
+    .image img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
